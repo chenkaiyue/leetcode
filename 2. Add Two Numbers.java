@@ -22,6 +22,28 @@ public class Solution{
 			l1=(l1==null)?l1:l1.next;
 			l2=(l2==null)?l2:l2.next;
 		}
+
+
+		while{
+			int sum;
+			if sum > 10{
+				sum = sum % 10;
+				cur = 1
+			}
+			prev.next = new ListNode(sum)
+			prev = prev.next 
+		}
+
+
+		}
 		return head.next;
 	}
+}
+
+prev := new(ListNode)
+head := prev
+carry := 0
+for l1 != nil || l2!=null || carry != 0{
+	cur := new(ListNode)
+	sum := 
 }

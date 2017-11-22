@@ -22,7 +22,7 @@ func reverseWords(s string) string {
 
 //方法二
 /*func reverseWords(s string) string {
-    var ret string=""
+    var ret string 
     s1 := strings.Split(s," ")
     for _,s2 := range s1{
         ret += reverse(s2)

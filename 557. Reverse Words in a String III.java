@@ -19,6 +19,6 @@ class Solution{
 		StringBuilder result = new StringBuilder();
 		for (String st:s1)
 			result.append(st+" ");
-		result.toString.trim()
+		result.toString().trim()
 	}
 }

@@ -12,3 +12,13 @@ class Solution(object):
 		newNode.left = self.mergeTrees(t1 and t1.left,t2 and t2.left)
 		newNode.right = self.mergeTrees(t1 and t1.right,t2 and t2.right)
 		return newNode
+
+
+
+
+
+
+		if t1 is None:
+			return t2
+		newNode = TreeNode(t1.val+t2.val)
+		newNode.left = self.mergeTrees
