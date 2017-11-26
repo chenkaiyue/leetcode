@@ -10,7 +10,7 @@ func reverseString(s string)string {
 	var b bytes.Buffer
 	for i:=0;i<len(s)-1;i++{
 		b.WriteString(string(s[len(s)-1-i]))
-		b.WriteString(s[len(s)-1-i,len(s)-i])
+		// b.WriteString(s[len(s)-1-i,len(s)-i])
 	}
 	return b.String()
 }

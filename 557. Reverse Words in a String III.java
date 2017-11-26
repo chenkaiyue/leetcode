@@ -13,7 +13,7 @@ class Solution {
 class Solution{
 	public String reverseWords(String s){
 		String[] s1 = s.split(" ");
-		for (int i=0;i<str.length;i++){
+		for (int i=0;i<s1.length;i++){
 			s1[i] = new StringBuilder(s1[i]).reverse().toString();
 		}
 		StringBuilder result = new StringBuilder();

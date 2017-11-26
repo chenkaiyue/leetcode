@@ -13,12 +13,12 @@ public int calPoints(String[] ops){
 			sum += l.peekLast()
 		}
 		else if (op.equals("+")) {
-            list.add(list.peekLast() + list.get(list.size() - 2));
-            sum += list.peekLast();
+            l.add(l.peekLast() + l.get(l.size() - 2));
+            sum += l.peekLast();
         }
         else {
-            list.add(Integer.parseInt(op));
-            sum += list.peekLast();
+            l.add(Integer.parseInt(op));
+            sum += l.peekLast();
         }
 	}
 	return sum;
